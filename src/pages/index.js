@@ -4,13 +4,13 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+import pic2 from '../assets/images/sportsChat.gif';
+// import pic3 from '../assets/images/pic03.jpg';
+import pic4 from '../assets/images/Flock-transparent.png';
+import pic5 from '../assets/images/hangman.png';
+import pic6 from '../assets/images/burger.gif';
+import pic7 from '../assets/images/crystal.png';
+import pic8 from '../assets/images/lakeBanner.png';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -29,11 +29,11 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Adrian</strong>
               <br />
-              Web developer
+              a Full Stack Web Developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>See some projects I've worked on.</p>
           </header>
 
           <footer>
@@ -53,64 +53,61 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            Here's some projects I've worked on:
           </p>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a href="https://sleepy-dusk-14317.herokuapp.com/" className="image fit">
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>Sports Chat</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic3} alt="" />
+                <a href="https://moraveca.github.io/giphy_app/" className="image fit">
+                  <img src="https://media.giphy.com/media/xVropKV7bfh0A/giphy.gif" alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Giphy App</h3>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
+              <article className="item" id="flock-card">
+                <a href="https://flock-51279.firebaseapp.com/" className="image fit">
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>Flock</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a href="https://moraveca.github.io/Word-Guess-Game/" className="image fit">
                   <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>Hangman</h3>
                 </header>
               </article>
             </div>
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a href="https://vast-bastion-19663.herokuapp.com/" className="image fit">
                   <img src={pic6} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h3>My Burger</h3>
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a href="https://moraveca.github.io/unit-4-game/" className="image fit">
                   <img src={pic7} alt="" />
                 </a>
                 <header>
-                  <h3>Orci Convallis</h3>
+                  <h3>Crystal Game</h3>
                 </header>
               </article>
             </div>
@@ -129,13 +126,18 @@ const IndexPage = () => (
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+          My name is Adrian Moravec. In July 2019, I completed a Full Stack Coding
+          Bootcamp at the University of Minnesota. I'm familiar and comfortable using
+          a wide range of different technologies including, but not limited to:
+          Javascript, Node.js, React, Firebase, Express, MySQL, MongoDB, HTML, and CSS.
+
+          I grew up in a small town of 6,000 in Nebraska and moved to attend school
+          in Minneapolis. I graduated from Augsburg College with a double major in
+          Music and Film. I then went on to study and obtain a Master's Degree in
+          Film Journalism at the University of Scotland.
+
+          I currently reside in Brooklyn Park, MN where I watch as many movies as 
+          I possibly can and try to find time to cook and bake (particularly cookies).
           </p>
         </div>
       </section>
@@ -147,20 +149,16 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Feel free to contact me if there's any projects you need help with!
           </p>
 
-          <form method="post" action="#">
+          <form method="post" action="https://formspree.io/moraveca@gmail.com">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
+                <input type="email" name="_replyto" placeholder="Email" />
               </div>
               <div className="col-12">
                 <textarea name="message" placeholder="Message" />
